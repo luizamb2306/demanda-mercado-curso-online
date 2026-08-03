@@ -2,7 +2,10 @@
 
 Projeto de análise de dados desenvolvido para avaliar a viabilidade do lançamento de um curso online de **Técnicas de Trading Algorítmico** a partir de uma pesquisa de mercado com 120 respondentes.
 
-O estudo combina **análise exploratória de dados (EDA)** e **inferência estatística** para responder às principais perguntas de negócio da startup.
+O estudo combina **Análise Exploratória de Dados (EDA)** e **Inferência Estatística** para responder às principais perguntas de negócio da startup.
+
+[![Medium](https://img.shields.io/badge/Artigo-Medium-black?logo=medium)](https://medium.com/@luizamarchenib/demanda-de-mercado-para-um-curso-online-an%C3%A1lise-preditiva-do-interesse-e-da-disposi%C3%A7%C3%A3o-a-pagar-dos-46350adc32ad?postPublishedType=repub)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luizamb2306/demanda-mercado-curso-online/blob/main/demanda_curso_online.ipynb)
 
 ---
 
@@ -37,11 +40,12 @@ O estudo combina **análise exploratória de dados (EDA)** e **inferência estat
 
 ## Estrutura do projeto
 
-```
+```text
 .
 ├── demanda_curso_online.ipynb   # Código completo da análise
 ├── dados_pesquisa.xlsx          # Base de dados
-└── requirements.txt      # Dependências do projeto
+├── requirements.txt             # Dependências do projeto
+└── README.md
 ```
 
 ---
@@ -54,26 +58,28 @@ O estudo combina **análise exploratória de dados (EDA)** e **inferência estat
 
 ---
 
-## Artigo completo
-
-A explicação detalhada da metodologia, dos resultados e das conclusões está disponível no Medium:
-
-https://medium.com/@luizamarchenib/demanda-de-mercado-para-um-curso-online-an%C3%A1lise-preditiva-do-interesse-e-da-disposi%C3%A7%C3%A3o-a-pagar-dos-46350adc32ad?postPublishedType=repub
-
----
-
 ## Como reproduzir a análise
 
-1. Clone este repositório.
-2. Instale as dependências:
+A maneira mais simples é abrir o notebook diretamente no Google Colab:
 
-```bash
-pip install -r requirements.txt
-```
-
-3. Execute o notebook `demanda_curso_online.ipynb`.
-
----
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luizamb2306/demanda-mercado-curso-online/blob/main/demanda_curso_online.ipynb)
 
+Caso prefira executar localmente:
 
+```bash
+git clone https://github.com/luizamb2306/demanda-mercado-curso-online.git
+
+cd demanda-mercado-curso-online
+
+pip install -r requirements.txt
+
+jupyter notebook demanda_curso_online.ipynb
+```
+
+---
+
+## Artigo completo
+
+A descrição detalhada da metodologia, dos resultados e das conclusões está disponível no Medium:
+
+[**Demanda de Mercado para um Curso Online: Análise Preditiva do Interesse e da Disposição a Pagar**](https://medium.com/@luizamarchenib/demanda-de-mercado-para-um-curso-online-an%C3%A1lise-preditiva-do-interesse-e-da-disposi%C3%A7%C3%A3o-a-pagar-dos-46350adc32ad?postPublishedType=repub)
