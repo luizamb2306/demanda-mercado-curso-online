@@ -39,9 +39,8 @@ O estudo combina **análise exploratória de dados (EDA)** e **inferência estat
 
 ```
 .
-├── notebook.ipynb        # Código completo da análise
-├── data/                 # Base de dados
-├── imagens/              # Gráficos utilizados
+├── demanda_curso_online.ipynb   # Código completo da análise
+├── dados_pesquisa.xlsx          # Base de dados
 └── requirements.txt      # Dependências do projeto
 ```
 
@@ -72,6 +71,6 @@ https://medium.com/@luizamarchenib/demanda-de-mercado-para-um-curso-online-an%C3
 pip install -r requirements.txt
 ```
 
-3. Execute o notebook `notebook.ipynb`.
+3. Execute o notebook `demanda_curso_online.ipynb`.
 
 ---
