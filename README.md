@@ -74,3 +74,6 @@ pip install -r requirements.txt
 3. Execute o notebook `demanda_curso_online.ipynb`.
 
 ---
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luizamb2306/demanda-mercado-curso-online/blob/main/demanda_curso_online.ipynb)
+
+
